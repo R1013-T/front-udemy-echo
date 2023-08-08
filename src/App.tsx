@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Auth from './components/Auth'
-import Todo from './components/Todo'
 import axios from 'axios'
 import { CsrfToken } from './types'
+import { Auth } from './components/Auth'
+import { Todo } from './components/Todo'
 
 function App() {
 
